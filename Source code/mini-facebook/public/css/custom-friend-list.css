@@ -1,0 +1,112 @@
+.profile-images {
+    margin-bottom: 20px;
+}
+
+.friend-list{
+    background-color: white;
+    width: 700px;
+    display: inline-block;
+    position: inherit;
+ }
+
+.friend-list ul.friend-list{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
+.friend-list ul.friend-list li {
+    list-style: none;
+    float:left;
+    border: 1px solid grey;
+    width: 660px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.friend-list ul.friend-list li div.image-container {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+
+.friend-list ul.friend-list li img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: inline-block;
+}
+.friend-list ul.friend-list li .user-name{
+    text-align: left;
+    padding-left: 20px;
+    line-height: 100px;
+    color: #00a1b8;
+    font-weight: 700;
+}
+
+.friend-list ul.friend-list li .user-name a{
+    text-decoration: none;
+}
+
+.friend-list-buttons {
+    font-size: 15px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border: 2px solid grey;
+    background-color: white;
+}
+
+.friend-list .col-sm-6{
+    padding: 0;
+    height: 100px;
+}
+
+@media screen and (max-width: 1050px) {
+
+    .profile-images {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .friend-panel {
+        height: 334px;
+    }
+    .friend-panel .panel-title {
+        display: block;
+    }
+
+    .friend-panel-collapse {
+        display: block;
+    }
+    .profile-images {
+        margin-left: auto ;
+        margin-right: auto;
+    }
+
+    .friend-list {
+        margin-left: auto ;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .friend-list .container {
+        max-width: 660px;
+        width: 660px;
+    }
+}
+
+.mutual-friend{
+    line-height: 100px;
+    margin-right: 20px;
+    font-weight: 600;
+
+}

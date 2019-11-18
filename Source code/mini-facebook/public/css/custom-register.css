@@ -1,0 +1,14 @@
+.card-header{
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+.card-body {
+    padding-top: 0!important;
+}
+
+.register {
+    padding-bottom: 20px;
+    width: 100%!important;
+    background: linear-gradient(white, #D3D8E8);
+}
